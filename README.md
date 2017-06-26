@@ -19,3 +19,4 @@ The credit of these configs goes to lots people, I'm mostly just combining the
 configuration files on a central place and make adjustments when required.
 
 - Matthew Jackowski - https://github.com/matthewjackowski
+- Mattias Geniar - https://github.com/mattiasgeniar
