@@ -55,7 +55,7 @@ sub vcl_recv {
 
 	# pass wp-admin cookies
 	if (req.http.cookie) {
-		if (req.http.cookie ~ "(wordpress_|wp-settings-)") {
+		if (req.http.cookie ~ "(wordpress_logged_in_|wp-settings-)") {
 			return(pass);
 		} else {
 			unset req.http.cookie;
