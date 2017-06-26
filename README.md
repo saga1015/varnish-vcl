@@ -2,10 +2,18 @@
 
 Varnish Configuration Language (VCL)
 
-## default
+## configs
+
+### default
 
 The default configuration
 
-## <name>
+### <name>
 
 Configuration modified to function for <name>.
+
+
+## Credit
+
+The credit of these configs goes to lots, I'm mostly just combining the
+configuration files on a central place and make adjustments when required.
