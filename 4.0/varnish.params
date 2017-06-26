@@ -8,7 +8,7 @@ RELOAD_VCL=1
 VARNISH_VCL_CONF=/etc/varnish/default.vcl
 #VARNISH_VCL_CONF=/etc/varnish/default.opencart.vcl
 #VARNISH_VCL_CONF=/etc/varnish/default.wordpress.vcl
-#VARNISH_VCL_CONF=/etc/varnish/default.wordpress.themosis.vcl
+#VARNISH_VCL_CONF=/etc/varnish/default.wordpress-themosis.vcl
 
 # Default address and port to bind to. Blank address means all IPv4
 # and IPv6 interfaces, otherwise specify a host name, an IPv4 dotted
