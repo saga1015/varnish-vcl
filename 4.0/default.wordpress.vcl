@@ -14,6 +14,9 @@ acl purge {
 }
 
 sub vcl_recv {
+	# Disable varnish
+	#return(pass);
+
 	# Only a single backend
 	set req.backend_hint = default;
 
