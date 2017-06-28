@@ -15,8 +15,11 @@ Configuration modified to function for <name>.
 
 ## Credit
 
-The credit of these configs goes to lots people, I'm mostly just combining the
-configuration files on a central place and make adjustments when required.
+These VCL files are inspired on and partly written lots of people.
 
+- Ipstenu (Mika Epstein) - https://github.com/Ipstenu
 - Matthew Jackowski - https://github.com/matthewjackowski
 - Mattias Geniar - https://github.com/mattiasgeniar
+- Steven Berler - https://github.com/berler
+
+Thank you!
