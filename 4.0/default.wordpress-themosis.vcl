@@ -105,7 +105,7 @@ sub vcl_backend_response {
 	}
 
 	# unset cookies from backendresponse
-	if (!(bereq.url ~ "(wp-login|wp-admin)"))  {
+	if (!(bereq.url ~ "^/cms/(wp-login.php|wp-admin)"))  {
 		set beresp.http.X-UnsetCookies = "TRUE";
 		unset beresp.http.set-cookie;
 		set beresp.ttl = 1h;
